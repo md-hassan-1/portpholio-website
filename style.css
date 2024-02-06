@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -18,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 70px;
-    background-color: #000000c7;
+    background-color: rgb(12, 12, 30);
     z-index: 100;
 
 }
@@ -276,13 +277,15 @@ body {
     color: #081b29;
     text-decoration: none;
     margin-top: 50px;
+    transition: 0.7s;
     opacity: 0;
     animation: slidetop 1s ease forwards;
     animation-delay: 2s;
 
-
-
-
+}
+.box-btn_1:hover{
+    box-shadow: 0px 0px 30px #0ef,
+                0px 0px 30px #0ef
 
 }
 
@@ -736,8 +739,9 @@ body {
     margin-top: 200px;
 }
 .main-text h2{
-    font-size: 30px;
-    line-height: 1;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 30px 0px;
     text-align: center;
 }
 .main-text h2 span{
@@ -823,6 +827,144 @@ body {
     height: 100%;
 
 }
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+    padding-left: 30px ;
+    margin-top: 130px;
+}
+.contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-text h2 span{
+    color: #0ef;
+}
+.contact-text h5{
+    font-size: 30px;
+    margin: 50px 0;
+    color: #fff;
+
+}
+.contact-text p{
+    line-height: 1.8;
+    color: #ffffffc6;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+.contact-list{
+    margin-bottom: 2rem;
+
+}
+.contact-list li{
+    display: block;
+    margin-bottom: 10px;
+
+}
+.contact-list li i{
+    color: #0ef;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    transition: 1s ease;
+}
+.contact-list li a:hover{
+    transform: scale(3), translateY(-10px);
+    color: #0ef;
+}
+.cotact-icon i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #0ef;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 3px ;
+    opacity: 0;
+    transition: 0.5s ease;
+    animation:slideleft 1s ease forwards ;
+    animation-delay:calc(.2s * var(--i));
+
+}
+.cotact-icon i:hover{
+    background-color: #0ef;
+    color: #000000;
+    box-shadow: 0px 0px 20px #0ef ;
+}
+.contact-form{
+    position: relative;
+
+}
+.contact-form form input, form textarea{
+    border: none;
+    background: #555557;
+    color:black;
+    border-radius: 10px;
+    width: 90%;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 18px;
+   
+    font-weight: 500;
+    font-size: 20px;
+}
+ form textarea::placeholder{
+    color: black;
+}
+form input::placeholder{
+    color: black;
+}
+form textarea{
+    resize: none;
+    height: 250px;
+    
+}
+.contact-form form .send{
+    background: #0ef;
+    border-radius: 30px;
+    transition: .5s;
+    animation: slidetop 1s  ease forwards;
+    opacity: 0;
+    animation-delay: 2s;
+}
+.contact-form form .send:hover{
+    box-shadow: 0px 0px 10px  #0ef,
+                0px 0px 10px  #0ef
+}
+
+
+
+
+.last-text .top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+  
+}
+.last-text .top i{
+    color: black;
+    background-color: #0ef;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+   
+
+
+
+
+
 
 
 
