@@ -26,7 +26,7 @@ body {
 
 .logo {
 
-    font-size: 25px;
+    font-size: 40px;
     color: white;
     text-decoration: none;
     font-weight: 60;
@@ -39,7 +39,7 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 30px;
     text-decoration: none;
     color: white;
@@ -72,6 +72,8 @@ body {
 .enter {
     position: relative;
     background-color: transparent;
+    margin-top: 25px;
+    
 
 }
 
@@ -207,8 +209,9 @@ body {
 
 
 .home-contant h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
+    line-height: 1.8;
     animation: slidright 1s ease forwards;
     opacity: 0;
     animation-delay: 1s;
@@ -216,7 +219,8 @@ body {
 }
 
 .home-contant p {
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 1.5;
     font-weight: 60;
     animation: slideleft 1s ease forwards;
     opacity: 0;
@@ -247,6 +251,7 @@ body {
     width: 60px;
     height: 60px;
     background-color: transparent;
+    color: white;
     border: 2px solid #0ef;
     border-radius: 50%;
     margin-left: 5px;
@@ -269,7 +274,7 @@ body {
 .box-btn_1 {
     display: inline-block;
     background-color: #0ef;
-    font-size: 24px;
+    font-size: 20px;
     padding: 14px 28px;
     border-radius: 40px;
     letter-spacing: 1px;
@@ -330,9 +335,13 @@ body {
     color: white;
     padding: 20px 20px;
 }
+.about-text p{
+    line-height: 1.5;
+    font-size: 23px;
+}
 
 .about-text h2 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 70;
     margin-bottom: 10px;
 }
@@ -344,13 +353,12 @@ body {
 
 .about-text h4 {
     font-weight: 68;
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.4;
 
 }
 
-.about-text p {
-    font-size: 25px;
-}
+
 
 #servise {
     color: aliceblue;
@@ -363,7 +371,7 @@ body {
 .sub-title {
     font-size: 60px;
     text-align: center;
-    padding: 50px 0px;
+    padding: 90px 0px;
     
 
 }
@@ -380,11 +388,14 @@ body {
 }
 
 .servise-list {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    justify-content: space-around;
     display: grid;
-    width: 1500px;
+    width: 1400px;
+    margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 80px;
+    margin-bottom: 100px;
     margin-top: 10px;
 
 }
@@ -396,7 +407,7 @@ body {
     border-right: 10px;
     padding: 30px;
     border-radius: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     transition: 1s;
     transition: background 0.5s transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
@@ -742,7 +753,7 @@ body {
     margin-top: 100px;
 }
 .main-text h2{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     margin: 50px 0px;
     text-align: center;
@@ -753,7 +764,8 @@ body {
 .portpholio-contant{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(395px, auto));
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    margin-bottom: 100px;
 
   
    
@@ -840,9 +852,9 @@ body {
     margin-top: 130px;
 }
 .contact-text h2{
-    font-size: 90px;
+    font-size: 70px;
     line-height: 1;
-    text-align: center;
+    text-align: start;
 }
 .contact-text h2 span{
     color: #0ef;
@@ -910,7 +922,7 @@ body {
 }
 .contact-form form input, form textarea{
     border: none;
-    background: #555557;
+    background:white;
     color:black;
     border-radius: 10px;
     width: 90%;
