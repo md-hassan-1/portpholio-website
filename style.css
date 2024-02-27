@@ -59,13 +59,13 @@ body {
 
 .home {
     display: flex;
-    /* flex-wrap: wrap; */
+   
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 100vh;
     z-index: -100;
-    /* background-color: #081b29; */
+    
     color: white;
 
 }
@@ -500,250 +500,8 @@ body {
 .container2 {
     width: 600px;
     height: 500px;
-    /* padding: 0px 90px; */
     margin-left: 100px;
-
-
 }
-@media screen and (max-width:900px){
-
-    .container1{
-        width: 100%;
-        height: 100%;
-        margin-bottom: 200px;
-        padding: 0px 10px;
-       margin-left: 50px;
-
-        
-    }
-    
-    .section{
-        flex-wrap: wrap;
-    }
-    .container2{
-   
-        width: 100%;
-         height: 100%;
-         margin-bottom: -130px;
-          margin-left: -50px;  
-     }
-  
-    
-    .sub-title{
-        padding: 90px ;
-        margin-top: 0px;
-    }
-    .home-contant{
-        /* flex: 0 0 100%; */
-        width: 100%;
-        height: 100%;
-        margin-top: 100px;
-      
-    }
-  
-    .servise-list div{
-        width: 30%;
-        height: 100%;
-        margin-bottom: 45px;
-
-    }
-    .home{
-        flex-wrap: wrap;
-    }
-    .header{
-        display: none;
-    }
-   .about{
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-   }
-   .about-text{
-    margin-left: 40px;
-    margin-top: 30px;
-   }
-   .sub-title-1{
-    padding-top: 0px;
-   }
-   .about-imag {
-    width: 100%;
-    margin-top: 0;
-    
-   }
-   .about-imag img{
-    width: 70%;
-    height: 100%;
-    object-fit: cover;
-   }
-    .enter{
-       display: none;
-
-    }
-
-    
-
-}
-@media screen and (max-width:1110px){
-
-    .container1{
-   
-        width: 100%;
-         height: 100%;
-         margin-bottom: 100px;
-         padding: 0px 10px;
-         margin: 0px 50px;
- 
-         
-     }
-     .container2{
-   
-        width: 100%;
-         height: 100%;
-         margin-bottom: 100px;
-         padding: 0px 10px;
-         margin: 0px 50px;
- 
-         
-     }
-    .home-contant{
-        flex: 0 0 100%;
-        max-width: 100%;
-        height: 100%;
-        margin-top: 100px;
-      
-    }
-    .sub-title{
-        padding: 90px ;
-        margin-top: 0px;
-    }
-    .servise-list div{
-        width: 100%;
-        height: 100%;
-        margin-bottom: 45px;
-
-    }
-  
-  
-    .servise-list div{
-        width: 47.5%;
-        height: 100%;
-        margin-bottom: 50px;
-
-    }
-    .home{
-        flex-wrap: wrap;
-    }
-    .header{
-        display: none;
-    }
-   .about{
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-   }
-   .about-text{
-    margin-left: 40px;
-    margin-top: 30px;
-   }
-   .about-imag {
-    width: 100%;
-    margin-top: 0;
-    
-   }
-   .about-imag img{
-    width: 70%;
-    height: 100%;
-    object-fit: cover;
-   }
-    .enter{
-       display: none;
-
-    }
-
-    
-
-}
-@media screen and (max-width:570px){
-
-    .container1{
-   
-        width: 100%;
-         height: 100%;
-         margin-bottom: 100px;
-         padding: 0px 10px;
-         margin: 0px 50px;
- 
-         
-     }
-     .container2{
-   
-        width: 100%;
-         height: 100%;
-         margin-bottom: 100px;
-         padding: 0px 10px;
-         margin-left:  50px;
-         margin-bottom: -150px;
- 
-         
-     }
-    .home-contant{
-        flex: 0 0 100%;
-        max-width: 100%;
-        height: 100%;
-        margin-top: 100px;
-      
-    }
-    .sub-title{
-        padding: 66px;
-        margin-top: 217px;
-    }
-    .sub-title-1{
-        padding: 0px;
-    }
-  
-  
-    .servise-list div{
-        width: 100%;
-        height: 100%;
-        margin-bottom: 50px;
-
-    }
-    .home{
-        flex-wrap: wrap;
-    }
-    .header{
-        display: none;
-    }
-   .about{
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-   }
-   .about-text{
-    margin-left: 40px;
-    margin-top: 30px;
-   }
-   .about-imag {
-    width: 100%;
-    margin-top: 0;
-    
-   }
-  
-   .about-imag img{
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
-   }
-    .enter{
-       display: none;
-
-    }
-
-    
-
-}
-
-
 .heading1{
     text-decoration: underline;
     text-align: center;
@@ -1015,12 +773,12 @@ body {
 
 .main-text{
     padding-top: 130px;
-    margin-top: 100px;
+    margin-top: 170px;
 }
 .main-text h2{
     font-size: 50px;
     font-weight: 600;
-    /* margin: 50px 0px; */
+    margin: 50px 0px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -1107,15 +865,7 @@ body {
     height: 100%;
 
 }
-/* .contact{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    justify-content: space-between;
-    gap: 3em;
-    padding-left: 30px ;
-    margin-top: 130px;
-} */
+
 .contact{
     display: flex;
   justify-content: space-between;
