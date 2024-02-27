@@ -1,4 +1,89 @@
-@media screen and (max-width:900px){
+@media screen and (max-width:1191px){
+
+    .container1{
+   
+        width: 100%;
+         height: 100%;
+         margin-bottom: 100px;
+         padding: 0px 10px;
+         margin: 0px 50px;
+ 
+         
+     }
+     .container2{
+   
+        width: 100%;
+         height: 100%;
+         margin-bottom: 100px;
+         padding: 0px 10px;
+         margin: 0px 50px;
+ 
+         
+     }
+    .home-contant{
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 100%;
+        margin-top: 100px;
+      
+    }
+    .sub-title{
+        padding: 90px ;
+        margin-top: 0px;
+    }
+    .servise-list div{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 45px;
+
+    }
+    .main-text {
+        padding-top: 130px;
+        margin-top: -43px;
+    }
+  
+  
+    .servise-list div{
+        width: 47.5%;
+        height: 100%;
+        margin-bottom: 50px;
+
+    }
+    .home{
+        flex-wrap: wrap;
+    }
+    .header{
+        display: none;
+    }
+   .about{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+   }
+   .about-text{
+    margin-left: 40px;
+    margin-top: 30px;
+   }
+   .about-imag {
+    width: 100%;
+    margin-top: 0;
+    
+   }
+   .about-imag img{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+   }
+    .enter{
+       display: none;
+
+    }
+
+    
+
+}
+
+@media screen and (max-width:991px){
 
     .container1{
         width: 100%;
@@ -185,6 +270,96 @@
     
 
 }
+@media screen and (max-width:767px){
+
+    .container1{
+   
+        width: 100%;
+         height: 100%;
+         margin-bottom: 100px;
+         padding: 0px 10px;
+         margin: 0px 50px;
+ 
+         
+     }
+     .container2{
+   
+        width: 100%;
+         height: 100%;
+         margin-bottom: 100px;
+         padding: 0px 10px;
+         margin-left:  50px;
+         margin-bottom: -150px;
+ 
+         
+     }
+    .home-contant{
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 100%;
+        margin-top: 56px;
+      
+    }
+    .sub-title {
+        padding: 66px;
+        margin-top: 86px;
+    }
+    .main-text {
+        padding-top: 107px;
+        margin-top: 75px;
+    }
+    .sub-title-1{
+        padding: 0px;
+    }
+  
+  
+    .servise-list div{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+
+    }
+    .home{
+        flex-wrap: wrap;
+    }
+    .header{
+        display: none;
+    }
+   .about{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+   }
+   .about-text{
+    margin-left: 40px;
+    margin-top: 30px;
+   }
+   .about-imag {
+    width: 100%;
+    margin-top: 0;
+    
+   }
+  
+   .about-imag img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+   }
+    .enter{
+       display: none;
+
+    }
+    .contact-text {
+        width: 100%;
+        height: 91%;
+        margin-left: 20px;
+    }
+
+    
+
+}
+
+
 @media screen and (max-width:570px){
 
     .container1{
@@ -272,4 +447,22 @@
 
     
 
+}
+@media screen and (max-width:462px){
+    .sub-title {
+        padding: 66px;
+        margin-top: 298px;
+    }
+    
+    .main-text {
+        padding-top: 107px;
+        margin-top: 51px;
+    }
+    .contact-form {
+        width: 100%;
+        height: 100%;
+        margin-top: 229px;
+        margin-left: 20px;
+    }
+    
 }

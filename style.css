@@ -432,6 +432,7 @@ body {
 }
 
 .servise-list div h2 {
+    /* color: white; */
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -443,9 +444,11 @@ body {
     margin-bottom: 15px;
 }
 
-.servise-list div p {
+.servise-list div p{
+   
     font-size: 20px;
     font-weight: 100;
+   
 }
 
 .servise-list div a {
@@ -567,17 +570,17 @@ body {
 }
 
 .progresss-line.css span {
-    width: 60%;
-
-}
-
-.progresss-line.js span {
     width: 57%;
 
 }
 
-.progresss-line.php span {
+.progresss-line.js span {
     width: 75%;
+
+}
+
+.progresss-line.php span {
+    width: 60%;
 
 }
 
@@ -829,14 +832,14 @@ body {
 
 .layer h2{
     font-size: 2rem;
-     color: black;
+     color: white;
      font-weight: 600;
      margin-bottom: 15px;
 }
 .layer p{
     font-size: 1.2rem;
-    color: black;
-    line-height: 1.8;
+    color: white;
+    line-height: 1.4;
     
     
 }
