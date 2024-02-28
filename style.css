@@ -340,6 +340,7 @@ body {
 .about-text p{
     line-height: 1.5;
     font-size: 23px;
+    text-align: justify;
 }
 
 .about-text h2 {
