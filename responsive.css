@@ -282,6 +282,9 @@
  
          
      }
+     .contact-text h2{
+        font-size: 45px;
+    }
      .container2{
    
         width: 100%;
@@ -393,6 +396,8 @@
     .sub-title{
         padding: 66px;
         margin-top: 217px;
+        font-size: 43px;
+      
     }
     .main-text {
         padding-top: 107px;
@@ -400,6 +405,7 @@
     }
     .sub-title-1{
         padding: 0px;
+        font-size: 43px;
     }
   
   
@@ -452,11 +458,21 @@
     .sub-title {
         padding: 66px;
         margin-top: 298px;
+        font-size: 35px;
+    }
+    .sub-title-1{
+        font-size: 35px;
+    }
+    .contact-text h2{
+        font-size: 40px;
     }
     
     .main-text {
         padding-top: 107px;
         margin-top: 51px;
+    }
+    .contact-text h5{
+        font-size: 25px;
     }
     .contact-form {
         width: 100%;
